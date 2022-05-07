@@ -1,0 +1,13 @@
+.register-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.form input{
+    border-radius: 49px;
+background: #eac3c3;
+box-shadow:  31px 31px 54px #ccaaaa,
+             -31px -31px 54px #ffdcdc;
+}

@@ -8,7 +8,7 @@ const Services = () => {
 
 
     useEffect( ()=>{
-        fetch('services.json')
+        fetch('https://murmuring-sands-18076.herokuapp.com/service')
         .then(res => res.json())
         .then(data => setServices(data));
     }, [])
@@ -19,7 +19,7 @@ const Services = () => {
            <div className="services-container">
             {
                 services.map(service => <Service
-                key ={service.id}
+                key ={service._id}
                 service= {service}
                 >
                 </Service>)
